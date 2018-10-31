@@ -2,7 +2,7 @@
 
 Name:       nodejs-grunt
 Version:    1.0.1
-Release:    1
+Release:    2
 Summary:    Grunt is a JavaScript library used for automation and running tasks
 License:    MIT
 URL:        https://github.com/gruntjs/grunt
