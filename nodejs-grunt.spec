@@ -1,18 +1,15 @@
 %global enable_tests 0
 
 Name:       nodejs-grunt
-Version:    1.0.1
-Release:    2
+Version:    1.6.1
+Release:    1
 Summary:    Grunt is a JavaScript library used for automation and running tasks
 License:    MIT
 URL:        https://github.com/gruntjs/grunt
 Source0:    https://github.com/gruntjs/grunt/archive/v%{version}/grunt-%{version}.tar.gz
 Group:      Development/Other
 
-
 BuildArch:  noarch
-ExclusiveArch: %{nodejs_arches} noarch
-
 BuildRequires:  nodejs-packaging
 
 %if 0%{?enable_tests}
